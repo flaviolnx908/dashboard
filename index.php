@@ -26,13 +26,13 @@
                 <article>
                     <h2>Gerenciar Tempo</h2>
                     <p>Controle e gerênciamento de suas atividades</p>
-                    <a href="gerenciar.php" class="btn">acessar</a>
+                    <a href="#" class="btn">acessar</a>
                 </article>
 
                 <article>
                     <h2>Controle de atividades</h2>
                     <p>Tabelas de controle de acessos</p>
-                    <a href="controle.php" class="btn">acessar</a>
+                    <a href="#" class="btn">acessar</a>
                 </article>
             </section>
         </main>

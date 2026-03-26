@@ -6,9 +6,7 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="dash.css">
 </head>
-    
 <body>
-
 <header class="titulo_dash"><h1>Dashboard Tarefas</h1></header>
 
     <div class="dashboard-container">
@@ -53,7 +51,9 @@
                         </tr>
                     </tbody>
                 </table>
-                <button class="btn_cad"> Cadastrar Usuario </button>
+                <div class="container_btn">
+                    <button class="btncad"> <a href="cad-usuario.php" class="abtncad"> + Adicionar Usuário </a> </button>
+                </div>
             </div>
         </main>
     </div>
