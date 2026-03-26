@@ -12,18 +12,9 @@
 <header class="titulo_dash"><h1>Dashboard Tarefas</h1></header>
 
     <div class="dashboard-container">
-        <nav>
-            <ul>
-                    <li><a href="modulo">Inicio</a></li>
-                    <li><a href="modulo">Projetos</a></li>    
-                    <li><a href="modulo">Relatórios</a></li>
-                    <li><a href="modulo">Configurações</a></li>
-            </ul>
-            <div class="perfil-usuario">
-                <img src="https://ui-avatars.com/api/?name=Flavio+gomes&background=008080&color=fff"alt="avatar">
-                <span>Flavio</span>
-            </div>
-        </nav>
+       <?php 
+            include 'menu.php';
+       ?>
         <main>  
             <section class="container-cards">
                 <article>
@@ -35,24 +26,19 @@
                 <article>
                     <h2>Gerenciar Tempo</h2>
                     <p>Controle e gerênciamento de suas atividades</p>
-                    <a href="dieta" class="btn">acessar</a>
+                    <a href="gerenciar.php" class="btn">acessar</a>
                 </article>
 
                 <article>
                     <h2>Controle de atividades</h2>
                     <p>Tabelas de controle de acessos</p>
-                    <a href="configurações" class="btn">acessar</a>
+                    <a href="controle.php" class="btn">acessar</a>
                 </article>
             </section>
         </main>
     </div>
-
-
-
-    <footer>
-        <p>&copy; <?php echo date ('Y'); ?> - desenvolvido na aula web 1</p>    
-    </footer>
-
-
+    <?php 
+        include 'footer.php';
+    ?>
 </body>
 </html>

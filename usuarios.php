@@ -12,22 +12,15 @@
 <header class="titulo_dash"><h1>Dashboard Tarefas</h1></header>
 
     <div class="dashboard-container">
-        <nav>
-            <ul>
-                    <li><a href="modulo">Inicio</a></li>
-                    <li><a href="modulo">Projetos</a></li>    
-                    <li><a href="modulo">Relatórios</a></li>
-                    <li><a href="modulo">Configurações</a></li>
-            </ul>
-            <div class="perfil-usuario">
-                <img src="https://ui-avatars.com/api/?name=Flavio+gomes&background=008080&color=fff"alt="avatar">
-                <span>Flavio</span>
-            </div>
-        </nav>
+         <?php 
+            include 'menu.php';
+         ?>
         <main>  
             <div class="header-content">
                 <h2>Gestão de Usuários</h2>
-                <p>Visuaize e gerêncie as permissões dos usuários dosistema</p>
+                <p>
+                    Visuaize e gerêncie as permissões dos usuários do sistema
+                </p>
             </div>
             <div class="table-responsive">
                 <table>
@@ -47,25 +40,27 @@
                             <td>Eric Freitas</td>
                             <td>eric@unifev.ead.br</td>
                             <td>Administrador</td>
-                            <td>Ativo</td>
-                            <td>Editar</td>
+                            <td><span class="badge ativo">Ativo</span></td>
+                            <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></i></button></td>
                         </tr>
                         <tr>
                             <td>02</td>
                             <td>Ana Sousa</td>
                             <td>ana.souza@gmail.com</td>
                             <td>Editor</td>
-                            <td>Ativo</td>
-                            <td>Editar</td>
+                            <td><span class="badge ativo">Ativo</span></td>
+                            <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></i></button></td>
                         </tr>
                     </tbody>
                 </table>
+                <button class="btn_cad"> Cadastrar Usuario </button>
             </div>
         </main>
     </div>
     <!-- //Editado -->
-    <footer>
-        <p>&copy; <?php echo date ('Y'); ?> - desenvolvido na aula web 1</p>    
-    </footer>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <?php 
+        include 'footer.php';
+    ?>
 </body>
 </html>
