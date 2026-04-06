@@ -18,7 +18,7 @@
                         <p>Preencha os dados abaixo para realizar o acesso ao sistema</p>
                     </div>
                         
-                    <form action="processa.php" method="POST">
+                    <form action="valida_login.php" method="POST">
                         <div class="form-group">
                             <label for="email">E-mail</label>
                             <input type="email" id="email" name="email" placeholder="nome@empresa.com" required>
